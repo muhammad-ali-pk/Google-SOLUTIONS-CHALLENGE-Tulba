@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Product Sans;
+}
+
+html {
+    font-size: 1vw;
+}
+
+#Stories_wlog {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../images/Background_2.png");
+    background-position: right;
+    background-size: cover;
+}
+
+#Background {
+    position: absolute;
+    width: 111.145%;
+    height: 173.703%;
+    left: 9.687%;
+    top: -34.259%;
+    overflow: visible;
+}
+
+#Ellipse_9 {
+    opacity: 0.32;
+}
+
+.Ellipse_9 {
+    position: absolute;
+    overflow: visible;
+    width: 96.063%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+#Ellipse_8 {
+    opacity: 0.32;
+}
+
+.Ellipse_8 {
+    position: absolute;
+    overflow: visible;
+    width: 91.096%;
+    height: 98.507%;
+    left: 8.903%;
+    top: 1.492%;
+}
+
+#Nav {
+    position: absolute;
+    width: 95.677%;
+    height: 20.740%;
+    left: 1.562%;
+    top: 2.77%;
+    overflow: visible;
+}
+
+#Logo {
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 6.1513%;
+    height: 50.446%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    border-radius: 40%;
+}
+
+#Options {
+    position: absolute;
+    width: 97.06%;
+    height: 87.053%;
+    left: 2.939%;
+    top: 12.946%;
+    overflow: visible;
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 1);
+    white-space: nowrap;
+}
+
+#Rectangle_1 {
+    opacity: 0.55;
+}
+
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 5.44%;
+    height: 10.256%;
+    left: 74%;
+    top: 7.179%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#Home {
+    position: absolute;
+    left: 59.618%;
+    top: 5.641%;
+    overflow: visible;
+    width: 4.486%;
+    cursor: pointer;
+    opacity: 0.68;
+}
+
+#About {
+    position: absolute;
+    left: 66.909%;
+    top: 5.641%;
+    overflow: visible;
+    width: 4.598%;
+    cursor: pointer;
+    opacity: 0.68;
+}
+
+#Stories {
+    position: absolute;
+    left: 74.761%;
+    top: 5.641%;
+    overflow: visible;
+    width: 5.103%;
+    cursor: default;
+    opacity: 0.68;
+}
+
+#Partners {
+    position: absolute;
+    left: 82.613%;
+    top: 5.641%;
+    overflow: visible;
+    width: 6.225%;
+    cursor: pointer;
+    opacity: 0.68;
+}
+
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 9.085%;
+    height: 31.28%;
+    left: 90.914%;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+}
+
+#Login {
+    position: absolute;
+    left: 91.269%;
+    top: 1.153%;
+    overflow: visible;
+    width: 8.43%;
+    text-align: center;
+    height: 30%;
+}
+
+#Login>span {
+    position: relative;
+    top: 20%;
+}
+
+#Stories_bmu {
+    position: absolute;
+    overflow: visible;
+    width: 86.458333%;
+    height: 73.11926605%;
+    left: 9.375%;
+    top: 17.59259259%;
+}
+
+.Rectangle_14 {
+    border-radius: 4rem;
+    border: 1px solid rgba(112, 112, 112, 0.478);
+    background-color: rgba(255, 255, 255, 0.66);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 101.80722891%;
+    height: 103.7641154%;
+    left: 0px;
+    top: 0px;
+}
+
+#Rectangle_15 {
+    opacity: 0.71;
+}
+
+.Rectangle_15 {
+    border: 1px solid rgba(112, 112, 112, 0.478);
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 4rem;
+    position: absolute;
+    overflow: visible;
+    width: 27.831325%;
+    height: 50.69008%;
+    left: 5.24096385%;
+    top: 22.0828105%;
+}
+
+#Rectangle_16 {
+    opacity: 0.71;
+}
+
+.Rectangle_16 {
+    border: 1px solid rgba(112, 112, 112, 0.478);
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 4rem;
+    position: absolute;
+    overflow: visible;
+    width: 27.831325%;
+    height: 50.69008%;
+    left: 36.0843373%;
+    top: 22.0828105%;
+}
+
+#Rectangle_17 {
+    opacity: 0.71;
+}
+
+.Rectangle_17 {
+    border: 1px solid rgba(112, 112, 112, 0.478);
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 4rem;
+    position: absolute;
+    overflow: visible;
+    width: 27.831325%;
+    height: 50.69008%;
+    left: 66.927710%;
+    top: 22.0828105%;
+}
+
+#Stories_bmz {
+    position: absolute;
+    top: 8%;
+    overflow: visible;
+    width: 100%;
+    white-space: nowrap;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.2rem;
+    color: rgba(51, 54, 51, 0.98);
+}
+
+#Stories_bmz span {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#DSC_UET_Taxila_Logo_x1 {
+    position: absolute;
+    width: 29.6987951%;
+    height: 11.41781681%;
+    left: 7.1686746%;
+    top: 83.145545%;
+    overflow: visible;
+}
+
+#model {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 6%;
+    height: 60%;
+    top: -10%;
+    border-radius: 50%;
+    left: 93%;
+    overflow: visible;
+    cursor: pointer;
+}

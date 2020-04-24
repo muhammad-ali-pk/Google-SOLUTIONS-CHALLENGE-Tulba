@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Product Sans;
+}
+
+html {
+    font-size: 1vw;
+}
+
+#Student_JobPortal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+#Background {
+    transform: rotate(90deg);
+    transform: translateY(80%);
+    transform-origin: center;
+    position: absolute;
+    width: 111.14583333%;
+    height: 89.4760412%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Ellipse_9 {
+    opacity: 0.32;
+}
+
+.Ellipse_9 {
+    position: absolute;
+    overflow: visible;
+    width: 93.62699156%;
+    height: 102.602602%;
+    left: 0px;
+    top: 0px;
+}
+
+#Ellipse_8 {
+    opacity: 0.32;
+}
+
+.Ellipse_8 {
+    position: absolute;
+    overflow: visible;
+    width: 92.31490159%;
+    height: 97.297297%;
+    left: 0px;
+    top: 9.509509%;
+}
+
+#header {
+    position: absolute;
+    width: 96.875%;
+    height: 11.66666666%;
+    left: 1.5625%;
+    top: 2.7777%;
+    overflow: visible;
+}
+
+#Tulba {
+    position: absolute;
+    width: 6.77419%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    cursor: pointer
+}
+
+#Profile {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 4.516129%;
+    height: 76.190476%;
+    left: 95.4838709%;
+    top: 0px;
+    overflow: visible;
+    cursor: pointer;
+    border-radius: 40%;
+}
+
+#Available_Job_Opportunities {
+    position: absolute;
+    left: 35.64516129%;
+    top: 18.2539682%;
+    overflow: visible;
+    width: 28.7634408%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(112, 112, 112, 1);
+}
+
+#jobPostings {
+    position: absolute;
+    width: 82.34375%;
+    height: 75.740740%;
+    left: 9.635416666%;
+    top: 14.444444%;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 0.55);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    border-radius: 6rem;
+}
+
+#flex-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 6%;
+    width: 100%;
+    height: 80%;
+    overflow-y: hidden;
+}
+
+#flex-container>div {
+    width: 90%;
+    height: 10.8%;
+    margin-left: 4.4%;
+    margin-bottom: 0.7%;
+    margin-top: 2.65vh;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    float: left;
+    width: 7vh;
+    height: 6vh;
+    border-radius: 50%;
+}
+
+.job {
+    height: 100%;
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 1.3rem;
+    color: rgba(112, 112, 112, 1);
+}
+
+.job>span {
+    text-align: left;
+    display: block;
+    padding-left: 6%;
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.apply_but {
+    margin-top: 1%;
+    margin-right: 3.4%;
+    border-radius: 20px;
+    background-color: rgba(255, 226, 116, 1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.161);
+    border: 1px solid rgba(112, 112, 112, 0.141);
+    display: block;
+    float: right;
+    width: 10.7%;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.apply_text {
+    padding-top: 5%;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgba(4, 81, 19, 1);
+    pointer-events: none;
+}
+
+#view_more,
+#view_less {
+    display: block;
+    position: relative;
+    margin-right: 7%;
+    margin-top: 68vh;
+    height: 6%;
+    text-align: right;
+    cursor: pointer;
+}
+
+#view_less {
+    display: none;
+}
+
+.arrow_head {
+    width: 3%;
+    display: block;
+    float: right;
+    transform: rotateZ(90deg);
+}
+
+#view_less>.arrow_head {
+    transform: rotateZ(-90deg);
+}
+
+.View {
+    padding-right: 4%;
+    padding-top: 0.4%;
+    font-size: 1.2rem;
+    color: rgba(51, 54, 51, 1);
+}
+
+#flex-container>div:nth-child(n+7) {
+    display: none;
+}
+
+.close {
+    position: relative;
+    left: 100%;
+    top: -5%;
+    height: 6%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup_background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1;;
+}
+
+#popup {
+    position: relative;
+    display: flex;
+    height: 75%;
+    width: 70%;
+    font-family: Poppins;
+    background-color: rgba(255, 255, 255, 0.55);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    border-radius: 3rem;
+}
+
+.part {
+    height: 100%;
+    width: 50%;
+}
+
+.name {
+    width: 100%;
+    height: 20%;
+}
+
+.academic {
+    width: 100%;
+    height: 30%;
+}
+
+.skills {
+    width: 100%;
+    height: 30%;
+}
+
+.time {
+    width: 100%;
+    height: 20%;
+}
+
+.part>div {
+    padding-left: 18%;
+    padding-top: 2%;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-family: Bebas Neue;
+    font-weight: normal;
+}
+
+ul {
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+li {
+    padding-bottom: 1%;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: Lato;
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 5%;
+}
+
+#company_logo {
+    height: 35%;
+    width: 100%;
+}
+
+#company_logo>img {
+    height: 65%;
+    width: 30%;
+    margin-top: 8%;
+    margin-left: 20%;
+    border-radius: 50%;
+}
+
+#details {
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#details>h2 {
+    padding-left: 24%;
+}
+
+#details>p {
+    padding-left: 7%;
+    text-align: left;
+}
+
+#details>span {
+    margin-left: -5%;
+}
+
+#submit {
+    padding: 0;
+    margin-left: 35%;
+    margin-top: 10%;
+    height: 7%;
+    width: 23%;
+    border-radius: 30px;
+    background-color: rgba(255, 226, 116, 1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.161);
+    border: 1px solid rgba(112, 112, 112, 0.141);
+    overflow: visible;
+    cursor: pointer;
+    display: block;
+}
+
+.text {
+    width: 100%;
+    padding: 4% 25%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgba(4, 81, 19, 1);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+
+#Back_button {
+    position: absolute;
+    width: 6.145833333333333%;
+    height: 10.925925925925%;
+    left: 89.42708333333%;
+    top: 84.16666666666%;
+    overflow: visible;
+    z-index: 1;
+}
+
+.Ellipse_15 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 3rem;
+    height: 3rem;
+    left: 0px;
+    top: 0px;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 71.186440677966%;
+    height: 66.186440677966%;
+    left: 14.406779661016%;
+    top: 14.406779661016%;
+    overflow: visible;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Product Sans;
+}
+
+html {
+    font-size: 1vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#Register_Page1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+#Background {
+    transform: translateY(-80%);
+    position: absolute;
+    width: 112%;
+    height: 174%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    z-index: 0;
+}
+
+#Ellipse_9 {
+    opacity: 0.32;
+}
+
+.Ellipse_9 {
+    position: absolute;
+    overflow: visible;
+    width: 98%;
+    height: 190%;
+    left: 0px;
+    top: 8%;
+    z-index: -10;
+}
+
+#Ellipse_8 {
+    opacity: 0.32;
+}
+
+.Ellipse_8 {
+    position: absolute;
+    overflow: visible;
+    width: 96.25%;
+    height: 180%;
+    left: 1.46%;
+    top: 0px;
+    z-index: -10;
+}
+
+#Basic_Info {
+    position: absolute;
+    width: 63.15%;
+    height: 53.38%;
+    left: 18.4114583%;
+    top: 37.22%;
+    overflow: visible;
+}
+
+input:focus {
+    border: 0.25rem solid rgba(112, 112, 112, 0.3);
+}
+
+input,
+select,
+label {
+    position: absolute;
+    overflow: visible;
+    width: 40.2%;
+    border-bottom: 0.25rem solid rgba(112, 112, 112, 0.3);
+    background-color: transparent;
+    white-space: nowrap;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: rgba(51, 54, 51, 0.8);
+}
+
+#Applicant_Full_Name {
+    top: 0px;
+    left: 0px;
+}
+
+#Email_Address {
+    top: 0px;
+    left: 59.5%;
+}
+
+#Fathers_Full_Name {
+    left: 0px;
+    top: 24.3%;
+}
+
+#Password {
+    left: 59.5%;
+    top: 24.3%;
+}
+
+#Home_Address {
+    left: 0px;
+    top: 46.83%;
+    width: 99.63%;
+}
+
+#Date_Of_Birth {
+    left: 0.0824%;
+    top: 73.55%;
+    padding-left: 16.5%;
+    opacity: 0.6;
+}
+
+label[for=dob] {
+    padding-left: 1.77%;
+    top: 73.55%;
+    left: 0px;
+    text-align: left;
+    opacity: 0.6;
+    border: none;
+}
+
+#Phone {
+    left: 30%;
+    top: 92.63%;
+}
+
+#Gender {
+    position: absolute;
+    width: 40.5%;
+    height: 7.112%;
+    left: 59.51%;
+    top: 73.55%;
+    overflow: visible;
+}
+
+#Gender label {
+    border-bottom: none;
+    opacity: 0.6;
+}
+
+#Tulba {
+    position: absolute;
+    width: 6.302083333333%;
+    height: 11.203703703%;
+    left: 1.5625%;
+    top: 2.77777777%;
+    overflow: visible;
+    border-radius: 25%;
+}
+
+#Register_An_Account {
+    position: absolute;
+    left: 9.427083333%;
+    top: 6.203703703%;
+    overflow: visible;
+    width: 20.26041666%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1rem;
+    color: rgba(51, 54, 51, 0.949);
+}
+
+#forward_button {
+    position: absolute;
+    width: 6.145833333333333%;
+    height: 10.925925925925%;
+    left: 89%;
+    top: 81%;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.Ellipse_15 {
+    filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 71.186440677966%;
+    height: 64.186440677966%;
+    left: 14.406779661016%;
+    top: 14.406779661016%;
+    overflow: visible;
+}
+
+#imageUpload,
+#logoUpload {
+    display: none;
+}
+
+#profile-container,
+#profile-container img,
+#logo-container,
+#logo-container img {
+    position: absolute;
+    top: 7.5%;
+    left: 44.8%;
+}
+
+#profile-container,
+#logo-container {
+    filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+    width: 10%;
+    height: 20%;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#profile-container img,
+#logo-container img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-position: center;
+    object-fit: cover;
+}
+
+#profile-container img[src="../images/plus.svg"],
+#logo-container img[src="../images/plus.svg"] {
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    object-position: center;
+}
+
+#logo-container {
+    display: none;
+}
+
+.profile-label {
+    top: -15%;
+    width: 100%;
+    border-bottom: none;
+    color: rgba(51, 54, 51, 0.4);
+}
+
+.company-label {
+    top: -11%;
+    width: 236%;
+    border-bottom: none;
+    color: rgba(51, 54, 51, 0.4);
+}
+
+#forward_button_a {
+    position: absolute;
+    width: 6.145833333%;
+    height: 10.925925925%;
+    left: 89%;
+    top: 81%;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.Ellipse_15_a {
+    filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 71.186440677966%;
+    height: 64.186440677966%;
+    left: 14.406779661016%;
+    top: 14.406779661016%;
+    overflow: visible;
+}
+
+#backward_button {
+    position: absolute;
+    width: 6.145833333%;
+    height: 10.925925925%;
+    left: 4%;
+    top: 81%;
+    transform: scaleX(-1);
+    overflow: visible;
+    cursor: pointer;
+}
+
+.Ellipse_15_b {
+    filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+}
+
+#Academic_Panel,
+#Academic_Panel_a,
+#Skills_Panel_a,
+#Academic_Panel_b {
+    position: absolute;
+    width: 27.76041666%;
+    height: 60.46296296%;
+    left: 17.03125%;
+    top: 34.8333333%;
+    overflow: visible;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10%;
+    opacity: 0.7;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+}
+
+textarea:focus,
+input:focus {
+    border: 0.2em solid rgba(112, 112, 112, 0.3);
+}
+
+.option {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 4% auto;
+    height: 10%;
+    font-size: 1.3rem;
+}
+
+#option1,
+#option2,
+#option3,
+#option4 {
+    opacity: 1;
+    width: 70.9193245%;
+    height: 9.1883614088%;
+    left: 14.5403377110%;
+    top: 11.332312404%;
+    position: absolute;
+    overflow: visible;
+    text-align: center;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: rgba(51, 54, 51, 1);
+    border-bottom: 0.2em solid rgba(112, 112, 112, 0.3);
+    padding-bottom: 2%;
+}
+
+#option2 {
+    height: 7.65696784%;
+    top: 30.93415%;
+}
+
+#option3 {
+    height: 7.65696784%;
+    top: 50.5359877%;
+}
+
+#option4 {
+    height: 7.65696784%;
+    top: 70.13782542%;
+}
+
+#Academic_Panel_b,
+#Skills_Panel_a{
+    left: 55.20833333%;
+}
+
+#Academic_Panel_a,
+#Skills_Panel_a {
+    top: 25%;
+}
+
+#Academic_Panel_b .option {
+    margin: 6% auto;
+}
+
+#Enter_Select_Relevant_Skills,
+.Relevant_Experiences {
+    position: absolute;
+    left: 14.727954%;
+    top: 11.332312%;
+    overflow: visible;
+    width: 70.91932457%;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Product Sans Light;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    border-bottom: 0.2em solid rgba(112, 112, 112, 0.3);
+    padding-bottom: 2%;
+    color: rgba(51, 54, 51, 0.478);
+}
+
+#skills,
+.skills {
+    padding: 5%;
+    position: absolute;
+    overflow: visible;
+    width: 70.9193245%;
+    height: 69.065849%;
+    left: 14.63414634%;
+    top: 22.0520673%;
+    font-size: 1.4rem;
+    border-radius: 8%;
+    border: 0.2em solid rgba(112, 112, 112, 0.3);
+}
+
+.Relevant_Experiences {
+    position: relative;
+    display: block;
+    margin: 3% auto;
+    left: 0;
+    top: 0;
+}
+
+.skills {
+    position: relative;
+    display: block;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    height: 40%;
+    width: 80%;
+}
+
+#page_2 {
+    display: none;
+}
+

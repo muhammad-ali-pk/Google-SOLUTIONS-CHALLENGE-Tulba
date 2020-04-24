@@ -1,0 +1,140 @@
+.mediaViewInfo {
+    --web-view-name: Apply-Confirmation;
+    --web-view-id: Apply_Confirmation;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Apply_Confirmation;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#Apply_Confirmation {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    --web-view-name: Apply-Confirmation;
+    --web-view-id: Apply_Confirmation;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#Background {
+    transform: matrix(1, 0, 0, 1, -106.9999, -1528.0013) rotate(-90deg);
+    transform-origin: center;
+    position: absolute;
+    width: 2134px;
+    height: 1876px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Ellipse_9 {
+    opacity: 0.32;
+}
+
+.Ellipse_9 {
+    position: absolute;
+    overflow: visible;
+    width: 1876px;
+    height: 2050px;
+    left: 0px;
+    top: 84px;
+}
+
+#Ellipse_8 {
+    opacity: 0.32;
+}
+
+.Ellipse_8 {
+    position: absolute;
+    overflow: visible;
+    width: 1848px;
+    height: 1944px;
+    left: 28px;
+    top: 0px;
+}
+
+#Header {
+    position: absolute;
+    width: 935px;
+    height: 987px;
+    left: 900px;
+    top: 40px;
+    overflow: visible;
+}
+
+#Tulba {
+    position: absolute;
+    width: 121px;
+    height: 121px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#forward_button {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 817px;
+    top: 869px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Student_Loggedin_Home.html;
+    cursor: pointer;
+}
+
+.Ellipse_15 {
+    filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 136px;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 17px;
+    top: 17px;
+    overflow: visible;
+}
+
+#Congratulations_on_successfull {
+    position: absolute;
+    left: 433px;
+    top: 602px;
+    overflow: visible;
+    width: 1055px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans Black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(51, 54, 51, 0.949);
+}

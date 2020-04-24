@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Product Sans;
+}
+
+html {
+    font-size: 1vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#Apply {
+    position: absolute;
+    width: 100%;
+    height: 206.759259%;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#Background {
+    transform: rotate(90deg);
+    transform: translateY(80%);
+    transform-origin: center;
+    position: absolute;
+    width: 111.14583333%;
+    height: 89.4760412%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Ellipse_9 {
+    opacity: 0.32;
+}
+
+.Ellipse_9 {
+    position: absolute;
+    overflow: visible;
+    width: 93.62699156%;
+    height: 102.602602%;
+    left: 0px;
+    top: 0px;
+}
+
+#Ellipse_8 {
+    opacity: 0.32;
+}
+
+.Ellipse_8 {
+    position: absolute;
+    overflow: visible;
+    width: 92.31490159%;
+    height: 97.297297%;
+    left: 0px;
+    top: 9.509509%;
+}
+
+#Background_he {
+    transform: rotate(-90deg);
+    transform: translateY(-75%);
+    position: absolute;
+    width: 111.14583333%;
+    height: 89.4760412%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Ellipse_9_hf {
+    opacity: 0.32;
+}
+
+.Ellipse_9_hf {
+    position: absolute;
+    overflow: visible;
+    width: 93.62699156%;
+    height: 102.602602%;
+    left: 0px;
+    top: 4.204204204%;
+}
+
+#Ellipse_8_hg {
+    opacity: 0.32;
+}
+
+.Ellipse_8_hg {
+    position: absolute;
+    overflow: visible;
+    width: 92.31490159%;
+    height: 97.297297%;
+    left: 1.3120899%;
+    top: 0px;
+}
+
+#Tulba {
+    position: absolute;
+    width: 6.875%;
+    height: 5.911330049%;
+    left: 46.5625%;
+    top: 1.746529332%;
+    overflow: visible;
+    border-radius: 25%;
+}
+
+#application_dialog {
+    position: absolute;
+    width: 82.34375%;
+    height: 79.93730407%;
+    left: 8.854166666%;
+    top: 10.031347962%;
+    overflow: visible;
+}
+
+#Holder {
+    opacity: 0.85;
+}
+
+.Holder {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 101.8975332%;
+    height: 101.68067226%;
+    left: 0px;
+    top: 0px;
+}
+
+#Apply_For_Job {
+    position: absolute;
+    left: 41%;
+    top: 1.00840336%;
+    overflow: visible;
+    width: 24.98418722327%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(51, 54, 51, 1);
+}
+
+input::placeholder {
+    font-family: Product Sans;
+    color: rgba(51, 54, 51, 0.8);
+}
+
+input:focus {
+    border: 0.25rem solid rgba(112, 112, 112, 0.3);
+}
+
+input,
+select,
+label {
+    position: absolute;
+    left: 9.7090449082%;
+    top: 12.99719887%;
+    overflow: visible;
+    width: 30.80328905%;
+    white-space: nowrap;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: rgba(51, 54, 51, 0.6);
+    border-bottom: 0.3rem solid rgba(51, 54, 51, 0.2);
+    background-color: transparent;
+}
+
+#Job_Type {
+    left: 55.3130929%;
+}
+
+#Website {
+    top: 20.84033613%;
+}
+
+#Job_Pay {
+    left: 55.3130929%;
+    top: 20.84033613%;
+}
+
+#Job_Location {
+    top: 28.12324929%;
+    width: 76.40733712%;
+}
+
+#Deadline {
+    top: 36.52661%;
+    padding-left: 10.552451893%;
+}
+
+label[for=deadline] {
+    padding-left: 4.34512725%;
+    top: 36.52661%;
+    text-align: left;
+    border: none;
+}
+
+#cgpa {
+    left: 55.3130929%;
+    top: 36.52661%;
+}
+
+#Basic_Information {
+    position: absolute;
+    left: 39.29236499%;
+    top: 7.6033057%;
+    overflow: visible;
+    width: 14.58721291%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: rgba(51, 54, 51, 0.878);
+}
+
+#Employer_Req {
+    position: absolute;
+    width: 81.750465549%;
+    height: 48.6501377%;
+    left: 8.1936685%;
+    top: 42.86501377%;
+    overflow: visible;
+}
+
+#Employer_Requirements {
+    position: absolute;
+    left: 38.041002277%;
+    top: 0px;
+    overflow: visible;
+    width: 24.29764616%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: rgba(51, 54, 51, 0.878);
+}
+
+#skills {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 102.277904328%;
+    height: 90.939977%;
+    left: 0px;
+    top: 12.457531143%;
+    border-radius: 8%;
+    font-size: 1.8rem;
+    padding: 5%;
+    border: 0.1em solid rgba(112, 112, 112, 0.3);
+}
+
+#Apply_button {
+    position: absolute;
+    width: 9.907604166%;
+    height: 8.41974921%;
+    left: 83.9834895833%;
+    top: 84.83125839%;
+    overflow: visible;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#circle {
+    width: 100%;
+    height: 100%;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 65.711311808%;
+    height: 66.4847643%;
+    left: 21.299401764%;
+    top: 16.3382319%;
+    overflow: visible;
+}
+
+*:disabled {
+    background: transparent;
+}

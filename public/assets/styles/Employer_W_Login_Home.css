@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    font-size: 1vw;
+}
+
+#Employer_W_Login_Home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/Background_emp.png);
+    background-position: right;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#Nav {
+    position: absolute;
+    width: 95.677%;
+    height: 20.740%;
+    left: 1.562%;
+    top: 2.77%;
+    overflow: visible;
+}
+
+#Logo {
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 6.1513%;
+    height: 50.446%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    border-radius: 40%;
+}
+
+#Options {
+    position: absolute;
+    width: 97.06%;
+    height: 87.053%;
+    left: 2.939%;
+    top: 12.946%;
+    overflow: visible;
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+}
+
+#Rectangle_1 {
+    opacity: 0.55;
+}
+
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 5.44%;
+    height: 10.256%;
+    left: 58.048%;
+    top: 7.179%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Home {
+    position: absolute;
+    left: 59.618%;
+    top: 5.641%;
+    overflow: visible;
+    width: 4.486%;
+    cursor: default;
+    opacity: 0.68;
+}
+
+#About {
+    position: absolute;
+    left: 66.909%;
+    top: 5.641%;
+    overflow: visible;
+    width: 4.598%;
+    cursor: pointer;
+    opacity: 0.68;
+}
+
+#Employer {
+    position: absolute;
+    left: 0px;
+    top: 68.7179487%;
+    overflow: visible;
+    width: 9.59057767%;
+    font-size: 2.7rem;
+    cursor: default;
+}
+
+#Employer:after {
+    display: block;
+    height: 8px;
+    background-color: #fff;
+    content: " ";
+    width: 400%;
+    border-radius: 10px;
+    margin: 1rem auto;
+}
+
+#Stories {
+    position: absolute;
+    left: 74.761%;
+    top: 5.641%;
+    overflow: visible;
+    width: 5.103%;
+    cursor: pointer;
+    opacity: 0.68;
+}
+
+#Partners {
+    position: absolute;
+    left: 82.613%;
+    top: 5.641%;
+    overflow: visible;
+    width: 6.225%;
+    cursor: pointer;
+    opacity: 0.68;
+}
+
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 9.085%;
+    height: 31.28%;
+    left: 90.914%;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+}
+
+#Login {
+    position: absolute;
+    left: 91.269%;
+    top: 1.153%;
+    overflow: visible;
+    width: 8.43%;
+    color: black;
+    text-align: center;
+    height: 30%;
+}
+
+#Login>span {
+    position: relative;
+    top: 20%;
+}
+
+#Home_pics {
+    position: absolute;
+    width: 46.5625%;
+    height: 47.1296296296%;
+    left: 45.5729166666%;
+    top: 26.481481481481%;
+    overflow: visible;
+}
+
+#pic_2 {
+    filter: drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 81.2080536%;
+    height: 73.280943%;
+    left: 18.7919463087248322%;
+    top: 0px;
+    overflow: visible;
+    border-radius: 3rem;
+}
+
+#pic_1 {
+    filter: drop-shadow(5px 10px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 80.08948545861%;
+    height: 74.066797642%;
+    left: 0px;
+    top: 25.93320235756%;
+    overflow: visible;
+    border-radius: 3rem;
+}
+
+#Text_quote {
+    position: absolute;
+    width: 39.0625%;
+    height: 31.94%;
+    left: 3.0989583%;
+    top: 26.52777%;
+    overflow: visible;
+}
+
+#there_is_no_exercise {
+    position: absolute;
+    left: 9.466666%;
+    top: 26.086956%;
+    overflow: visible;
+    width: 94.972067%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Freestyle Script;
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    font-size: 3.75rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+#_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 11.333333%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Viner Hand ITC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Back_button {
+    position: absolute;
+    width: 6.145833333333333%;
+    height: 10.925925925925%;
+    left: 89.42708333333%;
+    top: 84.16666666666%;
+    overflow: visible;
+    z-index: 1;
+}
+
+.Ellipse_15 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 3rem;
+    height: 3rem;
+    left: 0px;
+    top: 0px;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 71.186440677966%;
+    height: 66.186440677966%;
+    left: 14.406779661016%;
+    top: 14.406779661016%;
+    overflow: visible;
+    transform: rotate(180deg);
+}
+
+#PostJob_Button {
+    position: absolute;
+    width: 15.572916666%;
+    height: 7.592592592%;
+    left: 7.08333333%;
+    top: 63.148148148%;
+    overflow: visible;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.Rectangle_2 {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 110.033444816%;
+    height: 136.5853658536%;
+    left: 0px;
+    top: 0px;
+}
+
+#Post_A_Job {
+    position: absolute;
+    left: 26.75585284%;
+    top: 26.8292682926%;
+    overflow: visible;
+    width: 47.157190635%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+#model {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 6%;
+    height: 60%;
+    top: -10%;
+    border-radius: 50%;
+    left: 93%;
+    overflow: visible;
+    cursor: pointer;
+}

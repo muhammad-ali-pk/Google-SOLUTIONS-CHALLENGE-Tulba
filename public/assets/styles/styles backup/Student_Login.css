@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    font-size: 1vw;
+}
+
+#Student_Login {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#Background {
+    transform-origin: center;
+    position: absolute;
+    width: 111.14583333%;
+    height: 173.703703%;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+@media screen and (min-width: 1800px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -853, -323) rotate(166deg);
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -753, -323) rotate(166deg);
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -653, -323) rotate(166deg);
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -553, -223) rotate(166deg);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -503, -23) rotate(166deg);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -403, 0) rotate(166deg);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #Background {
+        transform: matrix(1, 0, 0, 1, -253, 0) rotate(166deg);
+    }
+}
+
+#Ellipse_9 {
+    opacity: 0.32;
+}
+
+.Ellipse_9 {
+    position: absolute;
+    overflow: visible;
+    width: 114.4776007%;
+    height: 123.46561833%;
+    left: 3.819353327%;
+    top: 0px;
+}
+
+#Ellipse_8 {
+    opacity: 0.32;
+}
+
+.Ellipse_8 {
+    position: absolute;
+    overflow: visible;
+    width: 109.34053420%;
+    height: 120.6504264%;
+    left: 0px;
+    top: 2.45015991%;
+}
+
+#Login_Dialog {
+    position: absolute;
+    width: 22.96875%;
+    height: 74.629629629%;
+    left: 71.45833333%;
+    top: 12.68518518518%;
+    overflow: visible;
+    border-radius: 5rem;
+    border: 0.1rem solid rgba(112, 112, 112, 1);
+}
+
+#Login_To_Your_Account {
+    position: absolute;
+    left: 14.739229024%;
+    top: 13.3995037220%;
+    overflow: visible;
+    width: 70.975056689%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+#Email_entry {
+    position: absolute;
+    width: 70.74829931%;
+    height: 3.908188585%;
+    left: 14.625850340%;
+    top: 33.1265508684%;
+    overflow: visible;
+    opacity: 0.28;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 1);
+}
+
+#Password_entry {
+    position: absolute;
+    width: 70.74829931%;
+    height: 3.908188585%;
+    left: 14.625850340%;
+    top: 48.0148883374%;
+    overflow: visible;
+    opacity: 0.28;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 1);
+    padding: 0.3rem;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 0.2rem solid rgba(0, 0, 0, 1);
+}
+
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 4.7619047619%;
+    height: 2.729528535%;
+    left: 14.7392290%;
+    top: 55.707196029%;
+}
+
+label {
+    opacity: 0.6;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#Remember_Password {
+    position: absolute;
+    left: 21.768707482%;
+    top: 56.07940446%;
+    overflow: visible;
+    width: 27.43764172%;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: rgba(59, 58, 58, 1);
+}
+
+#New_Here__Register_Now {
+    position: absolute;
+    left: 24.2630385%;
+    top: 79.03225806%;
+    overflow: visible;
+    width: 51.700680272%;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: left;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.15rem;
+    color: rgba(59, 58, 58, 1);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: rgba(17, 4, 110, 1);
+    text-decoration: none;
+}
+
+#Login_button {
+    position: absolute;
+    width: 19.142403628%;
+    height: 10.3518610%;
+    left: 40.4287981859%;
+    top: 63.06228287%;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.Ellipse_10 {
+    width: 98.32026345%;
+    height: 98.278920%;
+    position: absolute;
+    overflow: visible;
+    cursor: pointer;
+}
+
+#Ellipse_11 {
+    opacity: 0.36;
+}
+
+.Ellipse_11 {
+    cursor: default;
+    width: 76.9977966%;
+    height: 79.102545663%;
+    position: absolute;
+    overflow: visible;
+    cursor: pointer;
+}
+
+#arrow_head {
+    position: absolute;
+    width: 42.644933544%;
+    height: 43.146843089%;
+    left: 29.269823971%;
+    top: 29.6251018744%;
+    overflow: visible;
+}
+
+#Logo {
+    position: absolute;
+    width: 8.125%;
+    height: 14.4444%;
+    left: 2.0833333%;
+    top: 3.703703703%;
+    overflow: visible;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+#student_photo {
+    position: absolute;
+    width: 49.6875%;
+    height: 58.981481%;
+    left: 10.208333%;
+    top: 20.55555%;
+    overflow: visible;
+    border-radius: 2rem;
+}
+
+.Rectangle_7 {
+    position: absolute;
+    overflow: visible;
+    width: 0.208333%;
+    height: 90%;
+    left: 62.44791666%;
+    top: 5%;
+}

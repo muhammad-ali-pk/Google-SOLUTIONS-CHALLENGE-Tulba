@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    font-size: 18px;
+    font-family: 'Google Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+}
+
+/* ------------------------------- */
+/* HEADER */
+/* ------------------------------- */
+
+.logo {
+    display: block;
+    float: left;
+    height: 100px;
+    margin: 10px;
+    width: auto;
+}
+
+/* ----- NAV ----- */
+
+.nav {
+    position: relative;
+    float: right;
+    height: 100%;
+    font-size: 110%;
+    margin-top: 40px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 35px;
+
+}
+
+.nav li:nth-child(5) {
+    margin-right: 35px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:active {
+    color: #bebebe;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.current-tab {
+    cursor: default;
+}
+
+.current-tab:before {
+    position: absolute;
+    content: " ";
+    background-color: #ffd635;
+    height: 5px;
+    width: 20px;
+    opacity: 0.5;
+    -webkit-transform: translate(-40%);
+    transform: translate(-40%);
+    z-index: -1;
+    border: 2px solid #cdba70;
+}
+
+/* ----- MOBILE NAV ----- */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.mobile-nav-icon i:hover {
+    color: #888;
+}
+
+/* ------------------------------- */
+/* HOME CONTENT */
+/* ------------------------------- */
+
+.home-content {
+    position: relative;
+    height: 70vh;
+}
+
+.home-content .row {
+    width: 90%;
+}
+
+.text {
+    width: 42%;
+    height: 50vh;
+    position: relative;
+}
+
+.pics {
+    position: relative;
+    width: 52%;
+    margin-top: 4%;
+    margin-left: 3%;
+    height: 50vh;
+}
+
+.pic_1,
+.pic_2 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    -webkit-filter: drop-shadow(5px 2px 10px rgba(0, 0, 0, 0.161));
+    filter: drop-shadow(5px 2px 10px rgba(0, 0, 0, 0.161));
+}
+
+.pic_1 {
+    bottom: 0;
+    z-index: -1;
+}
+
+.pic_2 {
+    right: 0;
+    z-index: -2;
+}
+
+
+blockquote {
+    margin: 14% 0 0 8%;
+    font-size: 260%;
+    text-align: left;
+    font-family: Freestyle Script;
+    font-weight: normal;
+    cursor: default;
+    position: relative;
+}
+
+blockquote:before {
+    font-family: Viner Hand ITC;
+    content: "\0022";
+    font-size: 250%;
+    position: absolute;
+    top: -20%;
+    left: -10%;
+}
+
+/* ----- Headings ----- */
+
+h2 {
+    font-size: 180%;
+    font-weight: normal;
+}
+
+h2:after {
+    position: relative;
+    content: " ";
+    background-color: #000;
+    display: block;
+    height: 6px;
+    border-radius: 50px;
+    width: 90%;
+    margin: 2% 0;
+}
+
+/* ------------------------------- */
+/* REUSEABLE */
+/* ------------------------------- */
+
+.row {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* ----- BUTTONS ----- */
+
+.btn:link,
+.btn:visited {
+    font-size: 100%;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: #000;
+    color: #fc0;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
+    -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #fc0;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn.emp:link,
+.btn.emp:visited {
+    background-color: #fc0;
+    color: #000;
+    border: none;
+}
+
+.btn.emp:hover,
+.btn.emp:active {
+    border: none;
+    background-color: #000;
+    color: #fc0;
+}
+
+.job-invert:link,
+.job-invert:visited {
+    padding: 15px 50px;
+    background-color: #fc0;
+    color: #000;
+    -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+    border: 2px solid #b0a16a;
+}
+
+.job-invert:hover,
+.job-invert:active {
+    border: 2px solid transparent;
+    background-color: #000;
+    color: #fc0;
+}
+
+.job-invert.emp:link,
+.job-invert.emp:visited {
+    background-color: #000;
+    color: #fc0;
+    border: none;
+}
+
+.job-invert.emp:hover,
+.job-invert.emp:active {
+    border: none;
+    background-color: #fc0;
+    color: #000;
+}
+
+.btn.job-invert {
+    margin: 5% 0 0 8%;
+}
+
+
+/* ----- Icons ----- */
+
+ion-icon {
+    color: #000;
+    display: block;
+    z-index: 999;
+}
+
+
+/* ------------------------------- */
+/* FOOTER */
+/* ------------------------------- */
+
+.back-button {
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 450%;
+    fill: #fff;
+    float: right;
+    margin: -3% 5% 0 0;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.back-button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+#swal2-content {
+    font-size: 80%;
+    color: #000;
+}
+
+.swal2-header {
+    font-size: 70%;
+}
+
+.swal2-actions {
+    font-size: 80%;
+}
+
+/* ------------------------------- */
+/* RESPONSIVE */
+/* ------------------------------- */
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+    body {
+        font-size: 23px;
+    }
+
+    section {
+        margin-top: 4%;
+    }
+}
+
+/* Big tablet to 1200px (widths  smaller than 1140px) */
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+    body {
+        font-size: 18px;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 14px;
+    }
+
+    .col {
+        width: 80%;
+    }
+
+    .text {
+        left: 10%;
+    }
+
+    .job-invert {
+        position: relative;
+        display: block;
+        left: 25%;
+    }
+
+    .pics {
+        height: 40vh;
+        margin-top: -20%;
+        margin-left: 10%;
+    }
+
+    blockquote:before {
+        top: -10%;
+        left: -14%;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 9px;
+        overflow-y: visible;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    blockquote,
+    h2:after {
+        z-index: -1;
+    }
+
+    section {
+        margin-top: -3%;
+    }
+
+    .pics {
+        height: 60vh;
+    }
+
+    .text .btn {
+        padding: 10px 20px;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .nav {
+        z-index: 22;
+        position: fixed;
+        top: 15%;
+        right: 0;
+        display: none;
+        height: 185px;
+        width: 130px;
+        margin: 3px;
+        border-radius: 30px;
+        background-color: rgba(242, 242, 242, 0.9);
+    }
+
+    .nav.emp {
+        background-color: #0e114e;
+    }
+
+    .nav.emp li a:link,
+    .nav.emp li a:visited,
+    .nav.emp li span {
+        color: #fff;
+    }
+
+    .nav.emp li a:hover,
+    .nav.emp li a:active {
+        color: #4b4b4b;
+    }
+
+    .nav li {
+        display: block;
+    }
+
+    .nav li span,
+    .nav li a:link,
+    .nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 100%;
+        padding: 9px 0;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    body {
+        font-size: 11px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .nav {
+        top: 10%;
+        width: 130px;
+        height: 185px;
+    }
+
+    .nav li a.btn {
+        padding: 10px 11px;
+    }
+
+    .job-invert {
+        position: relative;
+        left: 25%;
+        top: -4%;
+    }
+
+    .pics {
+        height: 40vh;
+        margin-top: -18%;
+    }
+
+}

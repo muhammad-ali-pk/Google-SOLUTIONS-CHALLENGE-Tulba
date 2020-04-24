@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Product Sans;
+}
+
+html {
+    font-size: 1vw;
+}
+
+#Profile_Page {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/Background_profile.png);
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+#Header {
+    position: absolute;
+    width: 92.291666666%;
+    height: 21.018518518%;
+    left: 4.427083333%;
+    top: 4.35185185%;
+    overflow: visible;
+}
+
+#Profile_Picture {
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 11.851015801%;
+    height: 100%;
+    left: 88.1489841%;
+    top: 0px;
+    overflow: visible;
+}
+
+.Rectangle_12 {
+    cursor: pointer;
+    border-radius: 4rem;
+    background-color: rgba(255, 204, 0, 1);
+    border: 1px solid rgba(112, 112, 112, 0.259);
+    filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 17.15801354%;
+    height: 35.2422907%;
+    left: 0px;
+    top: 29.074889%;
+}
+
+#popup .Rectangle_12 {
+    width: 13.15801354%;
+    height: 10.2422907%;
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+#Submit {
+    position: relative;
+    left: 20%;
+    top: 21%;
+    overflow: visible;
+    width: 60%;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+#Profile {
+    position: relative;
+    left: 20%;
+    top: 21%;
+    overflow: visible;
+    width: 60%;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+#Biographics_Card,
+#Academic_Card,
+#Academic_Card_d {
+    position: absolute;
+    width: 28.15625%;
+    height: 63.9814814814%;
+    left: 4.2708333333%;
+    top: 23.7962962962%;
+    overflow: visible;
+}
+
+#Academic_Card_d {
+    height: 55.185185185%;
+    left: 74.47916666%;
+    top: 32.592592%;
+    width: 20%;
+}
+
+#Academic_Card {
+    left: 39.375%;
+}
+
+.Rectangle_10 {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 0.769);
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.91));
+    position: absolute;
+    overflow: visible;
+    border-radius: 3rem;
+    width: 105.1813471%;
+    height: 104.34153400868%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.7;
+}
+
+.details,
+.details1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    margin-left: 7%;
+    margin-top: 22%;
+}
+
+.details,
+.details1 span {
+    padding-right: 5%;
+}
+
+li>span:nth-child(n+2) {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 1.4rem;
+}
+
+li {
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+li>span {
+    margin-top: 1%;
+    display: block;
+    text-align: center;
+}
+
+ul {
+    margin-left: 5%;
+    list-style-type: none;
+}
+
+#Academic_Card_d .details>ul {
+    color: rgba(0, 0, 0, 0.55);
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 4%;
+    margin-top: 30%;
+}
+
+#Academic_Card_d .details1>ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 30%;
+}
+
+#Biographics,
+#Academic_Info,
+#Skills,
+#Company {
+    position: absolute;
+    left: 6.2176165803%;
+    top: 5.6439942%;
+    overflow: visible;
+    white-space: nowrap;
+    width: 31.951640%;
+    font-size: 1.9rem;
+    color: rgba(51, 54, 51, 1);
+}
+
+#skills {
+    display: block;
+    height: 15rem;
+}
+
+.Line_13 {
+    overflow: visible;
+    position: absolute;
+    width: 22.279792%;
+    height: 0.1447178%;
+    left: 6.3039723661%;
+    top: 14.254703328%;
+}
+
+.Line {
+    overflow: visible;
+    position: absolute;
+    width: 22.279792%;
+    left: 39.3039723661%;
+    margin: 0;
+}
+
+#Academic_Card_d>.Line_13 {
+    top: 15.5%;
+    left: 8%
+}
+
+#Skills {
+    left: 8.2176165803%;
+    top: 6.6439942%;
+}
+
+#Tulba {
+    position: absolute;
+    width: 5.3125%;
+    height: 9.4444%;
+    left: 0.5208333%;
+    top: 90.55555555%;
+    overflow: visible;
+    cursor: pointer;
+}
+
+
+.close {
+    position: relative;
+    left: 100%;
+    top: -5%;
+    height: 6%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup_background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 1;
+}
+
+#popup {
+    position: relative;
+    display: flex;
+    height: 60%;
+    width: 60%;
+    font-family: Poppins;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#form_div {
+    width: 100%;
+    margin-left: -1.7%;
+}
+
+#form {
+    height: 93%;
+    margin: 2%;
+    display: flex;
+}
+
+#form div {
+    margin-bottom: 10%;
+}
+
+textarea:focus,
+input:focus {
+    border: 0.25rem solid rgba(112, 112, 112, 0.3);
+}
+
+form>div {
+    width: 37%;
+    text-align: center;
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+textarea,
+input[type=text],
+input[type=email],
+#option1,
+#option2 {
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 2%;
+    padding: 0 10%;
+    color: rgba(51, 54, 51, 0.8);
+    background-color: transparent;
+    text-align: center;
+    border-bottom: 0.25rem solid rgba(112, 112, 112, 0.3);
+}
+
+#option1,
+#option2 {
+    margin: 0% 25%;
+    width: 50%;
+    color: rgba(51, 54, 51, 0.8);
+    background-color: transparent;
+    display: block;
+}
+
+.part {
+    padding: 2% 4%;
+    width: 50%;
+}
+
+#skills {
+    text-align: left;
+    border: 0.25rem solid rgba(112, 112, 112, 0.3);
+    border-radius: 3rem;
+    padding: 10%;
+}

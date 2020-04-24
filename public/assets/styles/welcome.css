@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ffcc00;
+}
+
+html,
+body {
+    background-color: #000;
+    color: #555;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.logo {
+    height: 120px;
+    display: block;
+    margin: 2% auto 7% auto;
+}
+
+.hero-box {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+
+.hero-text {
+    margin-top: -1%;
+    font-weight: bold;
+    font-size: 290%;
+    text-align: center;
+}
+
+.buttons {
+    width: 100%;
+    margin: 4% auto;
+    text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+    font-size: 170%;
+    display: inline-block;
+    padding: 20px 100px;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: #fc0;
+    border: 1px solid #fc0;
+    color: #000;
+    margin: 3%;
+    -webkit-transition: background-color 0.2s, color 0.2s, border 0.2s;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #deb100;
+    cursor: pointer;
+    border: 1px solid #deb100;
+}
+
+.bottom-text {
+    display: block;
+    text-align: center;
+    font-size: 140%;
+}
+
+.btn.mobile {
+    display: none;
+}
+
+
+
+/* --------------------------- */
+/* RESPONSIVE */
+/* --------------------------- */
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 9px;
+    }
+
+    .hero-box {
+        margin-top: 10%;
+    }
+    
+    .logo {
+        margin-bottom: 0%;
+    }
+    
+    .buttons {
+        position: relative;
+        width: 30%;
+        margin: 10% 0 0 35%;
+    }
+
+    .bottom-text {
+        margin-top: 18%;
+    }
+    
+    .btn:link,
+    .btn:visited {
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    
+    #swal2-content {
+        font-size: 80%;
+        color: #000;
+    }
+
+    .swal2-container {
+        width: 80%;
+        height: 80%;
+        margin: 20% auto;
+    }
+    
+    .swal2-header {
+        font-size: 70%;
+    }
+    
+    .swal2-actions {
+        font-size: 80%;
+    }
+    
+    .btn.sweet:link,
+    .btn.sweet:visited {
+        font-size: 15px;
+        height: 20%;
+        width: 120%;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    body {
+        font-size: 8px;
+    }
+    
+    .btn:link,
+    .btn:visited {
+        margin: 20% 0%;
+    }
+    
+    .buttons {
+        margin: 20% auto;
+    }
+    
+    .bottom-text {
+        margin-top:10%;
+    }
+}
+
+
+@media only screen and (max-height: 1200px) {
+    html {
+        overflow-y: visible;
+    }
+}
